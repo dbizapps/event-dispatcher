@@ -1,0 +1,23 @@
+{
+    "name": "dbizapps/event-dispatcher",
+    "description": "Dispatches event classes to communicate between application components",
+    "keywords": ["symfony", "workflow", "state", "transition", "wildcard"],
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "dbizapps\\EventDispatcher\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mark Fluehmann",
+            "email": "dbizapps@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
